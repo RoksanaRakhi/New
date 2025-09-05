@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+        <div class="Username"><h1>Roksana</h1></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a><li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="hero">
+        <div class="section-card">
+            <p class="about-content"><h3>Assalamualaikum!</h3><br>I'm Roksana Alam, a passionate web developer creating amazing digital experiences.</p>
+        </div>
+       
+    </section>
+    <section id="about">
+        <div class="section-card">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="section-img">
+                    <div class="photo-placeholder">
+                    <img src="images/image.jpg" alt="my image">
+                </div>
+                </div>
+                <p>I'm a dedicated web developer with passion for creating  beautiful, functional websites. I love turning ideas into reality through clean code and thoughtful design.In my free time, I enjoy learning new tools and frameworks to improve my skills.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-card">
+            <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card html-card">
+            <h3>HTML</h3>
+            <p>HTML stands for Hyper Text Markup Language. It describes the structure of a Web page.</p>
+        </div>
+        <div class="skill-card css-card">
+            <h3>CSS</h3>
+            <p>CSS is the language we use to style an HTML document. It describes how HTML elements should be displayed.</p>
+        </div>
+        <div class="skill-card js-card">
+            <h3>JavaScript</h3>
+            <p>JavaScript is the programming language of the web. It can update and change both HTML and CSS. It can calculate, manipulate and validate data.</p>
+        </div>
+    </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-card">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-grop">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-grop">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-grop">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Write you message...."></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong>roksana01943763315@gmail.com</p>
+                <p><strong>Phone:</strong>01566002493</p>
+                <p><strong>Location:</strong>Cumilla,Bangladesh</p>
+            </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Roksana Alam</p>
+  </footer>  
+</body>
+</html>
